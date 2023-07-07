@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 50vh;
+    height: 80vh;
     width: 60%;
     margin-left: 20%;
     margin-right: 20%;
@@ -17,4 +17,61 @@
 .search-bar input {
     width: 60%;
     margin-left: 15%;
+}
+
+.Card {
+    display: flex; 
+    flex-direction: column;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 5%;
+    background-color: lavender;
+    padding: 5%;
+    box-shadow: 0px 0px 3px 3px grey ;
+}
+
+h1 {
+    background-color: cornsilk ;
+}
+
+.Card-intro {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+    width: 100%;
+}
+
+.Card-intro-pic {
+    display: flex;
+    align-items: center;
+}   
+
+.Card-price {
+    display: flex; 
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+
+.info {
+    margin-left: 10%;
+}
+.Card-price > div {
+    border: 3px solid black;
+    padding: 2%;
+}
+
+@media (max-width:1000px) {
+    .Card {
+        width: 90%; 
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .Search {
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
 }
